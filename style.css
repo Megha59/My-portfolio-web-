@@ -1,0 +1,226 @@
+body{
+    background-color: black;
+}
+#mainhead{
+    background-color: lightgray;
+    color: black;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+#hobby{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding-right: 30px;
+}
+#hobby:hover{
+    transform: scale(1.5);
+}
+.welcome{
+    color: white;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 1px;
+}
+#profile-img{
+    width:160px;
+     height:200px;
+     padding-top: 3px;
+     border-radius: 30%;
+}
+aside{
+    float: left;
+    background-color: black;
+    width: 250px;
+    text-align: center;
+    font-size: 15px;
+    z-index: 2;
+    border-radius: 25px;
+    margin-top: 1%;
+    position: relative;
+    padding-bottom: 1%;
+}
+.navigate a{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    top: 0%;
+    bottom: 1px;
+    
+}
+.navigate ul{
+    list-style-type: none;
+    
+  margin-left: 10px;
+  padding: 0;
+  width: 230px;
+  background-color: gray;
+}
+.navigate li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+.navigate  li a.active {
+    background-color:black;
+    color: white;
+  }
+  
+.navigate  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  .welcome{
+      text-align: center;
+      margin-top: 12%;
+      font-size: 50px;
+  }
+  .welcome p{
+      font-size: 30px;
+  }
+.aboutme{
+    color: white;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Mate SC', serif;
+}
+.education{
+    text-align: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.subhead{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.column{
+    float: left;
+    width: 25%;
+    background-color: lightgray;
+    border-radius: 5%;
+    margin-right: 20px;
+}
+.row::after{
+    content: " ";
+    display: table;
+    clear: both;
+    
+}
+#slink{
+    text-decoration: none;
+    color: black;
+}
+#edimg:hover{
+    transform: scale(1.5);
+    transform-origin: center;
+}
+#profile-img:hover{
+    transform: scale(1.5);
+}
+.skills{
+    box-sizing: border-box;    
+}
+.container{
+    width: 100%;
+    height: 0.5px;
+    background-color: gray;
+}
+.skills{
+    text-align: center;
+    padding-top: 5px;
+padding-bottom: 10px;
+margin-left: 300px;
+margin-right: 10%;
+}
+#sh{
+    color: white;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#ch{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+.html{
+    width: 70%;
+    background-color: lightgray;
+    color: black;
+}
+.css{width: 60%; background-color: lightgray; color: black}
+
+.python{width: 70%; background-color: lightgray; color: black;}
+
+.dnet{width: 30%; background-color: lightgray;color: black;}
+
+.java{width: 60%; background-color: lightgray;color: black;}
+
+#edimg{
+    width: 120px;
+    height: 120px;
+    border: 1px solid whitesmoke;
+    border-radius: 30%;
+}
+#icons{
+    font-size: 40px;
+    padding: 10px;
+    padding-left: 10px;
+    color: black;
+}
+#icons:hover{
+    transform: scale(2);
+}
+#ilist{
+    float: center;
+    width: 400px;
+    height: 470px;
+    background-color: lightgray;
+    margin-left: 40%;
+    margin-top: 20px;
+    padding: 2px;
+    text-align: center;
+    
+}
+#icons-down{
+    
+    margin-top: 5%;
+}
+#info{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lab{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#name{
+    height: 20px;
+    margin-left: 20px;
+}
+#msg{
+    height: 60px;
+}
+#submit{
+    height: 30px;
+    width: 60px;
+}
+form{
+    text-align: center;
+    
+}
